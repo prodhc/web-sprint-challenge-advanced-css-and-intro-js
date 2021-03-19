@@ -139,26 +139,16 @@ button:hover{
     width:100%;
 }
 
-/*mobile*/
-@media(max-width: 500px){
-
+/*tablet*/
+@media(max-width: 800px) {
     a {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     nav a {
 
         margin: 0% 7% 0% 7%;
 
-    }
-
-    .title-container div {
-        width: 100%;
-        margin: 2% 0%;
-    }
-
-    .title-container div h1 {
-        font-size: 3rem;
     }
 
     .artists-container{
@@ -176,6 +166,39 @@ button:hover{
     .artist img {
         width: 60%;
         height: 60%;
+    }
+
+    .bio {
+        font-size: 1.5rem;
+    }
+    
+
+
+}
+
+/*mobile*/
+@media(max-width: 500px){
+
+    a {
+        font-size: 1.5rem;
+    }
+
+
+    .title-container div {
+        width: 100%;
+        margin: 2% 0%;
+    }
+
+    .title-container div h1 {
+        font-size: 3rem;
+    }
+
+    .artists-container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+  
     }
 
     .bio {
